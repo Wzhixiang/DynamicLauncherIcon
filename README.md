@@ -6,7 +6,7 @@
           在代码中是通过PackageManager的setComponentEnabledSetting（）方法控制
 
 实现步骤：
-    <br>1.在Manifest.xml的application节点下配置启动标签
+    1.在Manifest.xml的application节点下配置启动标签
         <activity-alias
             android:name=".MainActivity1111"
             android:label="@string/app_name"

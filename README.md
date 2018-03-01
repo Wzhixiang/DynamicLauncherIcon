@@ -1,4 +1,4 @@
-<p>
+
 ### 动态更换APP桌面图标<br />
 <br />
 准备工作：多套Launcher图标（本例中另外添加了ic_launcher_1111和ic_launcher_1212两套启动图标）<br />
@@ -91,5 +91,4 @@
 	</div>
 </p>
 <p>
-	<br />
-</p>
+<br />

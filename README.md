@@ -1,4 +1,4 @@
-### 动态更换APP桌面图标
+## 动态更换APP桌面图标
 
 准备工作：多套Launcher图标（本例中另外添加了ic_launcher_1111和ic_launcher_1212两套启动图标）
 
@@ -82,6 +82,6 @@
         ……<br>
         kapt "com.android.databinding:compiler:3.0.1"<br>
     }<br>
-发现：<br>
+发现：
 1.更换桌面图标不是马上生效，需要一段时间才生效（10S内）<br>
 2.当app不是默认图标时，再run 'app'，就会报错 'Session "app":Error Launching activity'<br>

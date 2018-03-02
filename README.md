@@ -3,8 +3,7 @@
 <br />
 准备工作：多套Launcher图标（本例中另外添加了ic_launcher_1111和ic_launcher_1212两套启动图标）<br />
 <br />
-实现原理：通过设置启动组件显示、隐藏桌面图标以达到目的。在Manifest.xml中体现在enabled属性上，<br />
-&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 在代码中是通过PackageManager的setComponentEnabledSetting（）方法控制<br />
+实现原理：通过设置组件可用和不可用以达到目的。在Manifest.xml中体现在enabled属性上，在代码中是通过PackageManager的setComponentEnabledSetting（）方法控制<br />
 <br />
 实现步骤：<br />
 &nbsp; &nbsp; 1.在Manifest.xml的application节点下配置启动标签<br />
